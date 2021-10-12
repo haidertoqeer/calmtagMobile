@@ -102,7 +102,10 @@ body{
 }
 
 select {
-	appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+    appearance:none; 
 }
 .select-downarrow{
 	
