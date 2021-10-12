@@ -26,10 +26,16 @@ body{
 /*	margin-bottom: 22px;*/
 }
 .cst-p{
-	font-family: Open Sans;
-	font-size: 18px;
-	text-align: center;
+/*
+    font-family: Open Sans;
+    font-size: 18px;
+*/
+    text-align: center;
     letter-spacing: 0.17px;
+    font: normal normal normal 18px/24px Open Sans;
+    letter-spacing: 0.17px;
+    color: #606060;
+    opacity: 1
 }
 .cst-h4{
 	color: #606060;
@@ -85,7 +91,7 @@ body{
     height: 54px;
 }
 .max-70{
-	max-width: 70%;
+	max-width: 74%;
 }
 .cst-form-control{
 	background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -144,4 +150,13 @@ select.cst-form-control{
     max-width: 350px;
     margin: auto;
     height: 49px;
+}
+.ht_cst-5{
+    font: italic normal bold 20px/27px Open Sans;
+    letter-spacing: 0.19px;
+    color: #0084BF;
+    opacity: 1;
+    max-width: 247px;
+    margin: auto;
+    margin-top: 64px;
 }
