@@ -1,0 +1,132 @@
+body{
+    background: transparent url(../images/BG.svg) 100% 100% repeat padding-box;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.content{
+/*	background: #E7F4FA;*/
+/*    background: transparent url('../images/BG.svg') 0% 0% no-repeat padding-box;*/
+    width: 428px;
+    margin: auto;
+    height: 100vh;
+	}
+.logo{
+	margin-top: 30px;
+    margin-left: 76px;
+}
+.cst-h3{
+	color: #606060;
+	font-size: 22px;
+	font: Open Sans;
+	opacity: 1;
+	text-align: center;
+	margin-top: 22px;
+/*	margin-bottom: 22px;*/
+}
+.cst-p{
+	font-family: Open Sans;
+	font-size: 18px;
+	text-align: center;
+    letter-spacing: 0.17px;
+}
+.cst-h4{
+	color: #606060;
+	font-size: 18px;
+	opacity: 1;
+	text-align: center;
+	margin-top: 50px;
+	font-family: Open Sans;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.button2 {
+    border: 1px solid #0084BF;
+    color: #9F9F9F;
+    background: white;
+    padding: 6px 15px 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 16px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    opacity: 1;
+    font-family: Open Sans,Regular;
+    height: 49px;
+	width: 300px;
+    box-shadow: inset 0px 1px 6px #00000029;
+}
+.Next{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0084BF;
+    border: none;
+    padding:2%;
+/*	margin-top: 30px;*/
+    width: 87%;
+    height: 68px;
+    border-radius: 30px;
+	border: 1px solid transparent;
+	transition: all 0.3s;
+	box-shadow: 0px 3px 6px #00000029;
+	font-size: 18px;
+}
+.max-70{
+	max-width: 70%;
+}
+.cst-form-control{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: inset 0px 2px 6px #00000012;
+	border: 1px solid #0084BF;
+	border-radius: 8px;
+	opacity: 1;
+}
+
+select {
+	appearance: none;
+}
+.select-downarrow{
+	
+	width: 25px;
+	height: 20px;
+	margin-left: 40px;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+.form-control{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: inset 0px 2px 6px #00000012;
+	border: 1px solid #0084BF;
+	border-radius: 8px;
+	opacity: 1;
+}
+.cst-p1{
+	letter-spacing: 0.17px;
+	color: #0084BF;
+	opacity: 1;
+	font-weight: bold;
+	margin-top: 25px;
+}
+.cst-h5{
+	color: #0084BF;
+	font-size: 20px;
+	opacity: 1;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.cst-col-lg-12{
+	margin-top: 210px;
+}
+
+select.cst-form-control{
+        font: normal normal normal 16px/22px Source Sans Pro;
+    letter-spacing: 0.15px;
+    color: #606060;
+    opacity: 0.5;
+}
