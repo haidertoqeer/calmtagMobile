@@ -161,6 +161,11 @@ select.cst-form-control{
     margin: auto;
     height: 49px;
 }
+
+input{
+    height: 49px !important;
+     font: normal normal normal 16px/22px Source Sans Pro;
+}
 .ht_cst-5{
     font: italic normal bold 20px/27px Open Sans;
     letter-spacing: 0.19px;
