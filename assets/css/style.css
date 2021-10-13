@@ -1,8 +1,11 @@
 body{
-    background: transparent url(../images/BG.svg) 100% 100% repeat padding-box;
+/*    background: transparent url(../images/BG.svg) 100% 100% repeat padding-box;*/
+/*    background: url(../images/BG.svg);*/
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    background: rgb(231,244,250);
+    background: linear-gradient(180deg, rgba(231,244,250,1) 0%, rgba(235,243,214,1) 50%, rgba(220,235,243,1) 100%);
 }
 .content{
 /*	background: #E7F4FA;*/
@@ -35,7 +38,11 @@ body{
     font: normal normal normal 18px/24px Open Sans;
     letter-spacing: 0.17px;
     color: #606060;
-    opacity: 1
+    opacity: 1;
+    max-width: 334px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 .cst-h4{
 	color: #606060;
@@ -113,7 +120,7 @@ select {
 	height: 20px;
 	margin-left: 40px;
 	position: absolute;
-	    right: 55px;
+	    right: 50px;
     top: 0px;
     height: 49px;
 }
