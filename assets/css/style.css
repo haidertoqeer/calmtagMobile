@@ -165,6 +165,10 @@ select.cst-form-control{
 input{
     height: 49px !important;
      font: normal normal normal 16px/22px Source Sans Pro;
+    font-family: Open sans;
+}
+textarea{
+    font-family: Open sans;
 }
 .ht_cst-5{
     font: italic normal bold 20px/27px Open Sans;
