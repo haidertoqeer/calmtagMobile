@@ -196,3 +196,11 @@ span.icon-eye{
     right: 30px;
     color: #929292;
 }
+span.text-radio{
+        font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    color: #606060;
+    letter-spacing: 0.14px;
+    height: 30px;
+}
