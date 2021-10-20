@@ -130,6 +130,7 @@ select {
 	border: 1px solid #0084BF;
 	border-radius: 8px;
 	opacity: 1;
+    position: relative;
 }
 .cst-p1{
 	letter-spacing: 0.17px;
@@ -178,4 +179,20 @@ textarea{
     max-width: 247px;
     margin: auto;
     margin-top: 64px;
+}
+.reset-para{
+    max-width: 350px;
+    font-size: 16px;
+    height: 22px;
+    font-size: open sans regular;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+}
+span.icon-eye{
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    color: #929292;
 }
